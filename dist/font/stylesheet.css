@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'FMBolyar Ornate Pro 100';
+    src: url('FMBolyarOrnatePro-100.eot');
+    src: local('FMBolyarOrnatePro-100'),
+        url('FMBolyarOrnatePro-100.eot?#iefix') format('embedded-opentype'),
+        url('FMBolyarOrnatePro-100.woff2') format('woff2'),
+        url('FMBolyarOrnatePro-100.woff') format('woff'),
+        url('FMBolyarOrnatePro-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FMBolyar Ornate Pro 900';
+    src: url('FMBolyarOrnatePro-900.eot');
+    src: local('FMBolyarOrnatePro-900'),
+        url('FMBolyarOrnatePro-900.eot?#iefix') format('embedded-opentype'),
+        url('FMBolyarOrnatePro-900.woff2') format('woff2'),
+        url('FMBolyarOrnatePro-900.woff') format('woff'),
+        url('FMBolyarOrnatePro-900.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FMBolyar Ornate Pro 500';
+    src: url('FMBolyarOrnatePro-500.eot');
+    src: local('FMBolyarOrnatePro-500'),
+        url('FMBolyarOrnatePro-500.eot?#iefix') format('embedded-opentype'),
+        url('FMBolyarOrnatePro-500.woff2') format('woff2'),
+        url('FMBolyarOrnatePro-500.woff') format('woff'),
+        url('FMBolyarOrnatePro-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FMBolyar Ornate Pro 700';
+    src: url('FMBolyarOrnatePro-700.eot');
+    src: local('FMBolyarOrnatePro-700'),
+        url('FMBolyarOrnatePro-700.eot?#iefix') format('embedded-opentype'),
+        url('FMBolyarOrnatePro-700.woff2') format('woff2'),
+        url('FMBolyarOrnatePro-700.woff') format('woff'),
+        url('FMBolyarOrnatePro-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FMBolyar Ornate Pro 300';
+    src: url('FMBolyarOrnatePro-300.eot');
+    src: local('FMBolyarOrnatePro-300'),
+        url('FMBolyarOrnatePro-300.eot?#iefix') format('embedded-opentype'),
+        url('FMBolyarOrnatePro-300.woff2') format('woff2'),
+        url('FMBolyarOrnatePro-300.woff') format('woff'),
+        url('FMBolyarOrnatePro-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

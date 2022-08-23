@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>jojo portfolio</title>
+</head>
+<body class="body-home">
+    <video autoplay muted loop id="myVideo">
+        <source src="../dist/img/jojo_dek_live.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="menu-btn"><span class="menu-btn_ham"></span></div>
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav_item active"><a href="#" class="menu-nav_link">Home</a></li>
+                <li class="menu-nav_item"><a href="about.html" class="menu-nav_link">About</a></li>
+                <li class="menu-nav_item"><a href="projects.html" class="menu-nav_link">Parts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section  class="home">
+            <button id="myBtn" class="home_name" onclick="myFunc()">JO<span id="j2" class="home_name-last">JO</span></button>
+            <div class="socials-icon">
+                <a href="#!"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#!"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#!"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            <footer>&copy; Copyright 2022</footer>
+        </section>
+
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+    <script>
+        const video = document.getElementById("myVideo");
+        const btn = document.getElementById("myBtn");
+        const j2=document.getElementById("j2");
+        function myFunc() {
+            if (video.paused) {
+                video.play();
+                j2.style.color="#ff652f";
+                btn.style.color="#fff"
+            } else {
+                video.pause();
+                btn.style.color="#ff652f";
+                j2.style.color="#fff"
+            }
+        }
+
+    </script>
+</body>
+</html>

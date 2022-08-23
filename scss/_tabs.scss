@@ -1,0 +1,27 @@
+.tablist{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    &_items{
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        height: 5vw;
+        width: 5vw;  
+        background-color: transparent;
+        color: set-text-color($primary-color);
+        border: 0px solid $primary-color;
+        border-bottom: 3px solid set-text-color($primary-color);
+        border-radius: 5%;
+        &[aria-selected="true"]{
+           color: $secondary-color; 
+        }
+        &:hover,&:focus,&[aria-selected="true"]{
+            border-bottom: 3px solid $secondary-color;
+            @include shadow($secondary-color);
+            @include trans-ease(0.3s);
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}
